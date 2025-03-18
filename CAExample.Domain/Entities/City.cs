@@ -6,5 +6,7 @@ namespace CAExample.Domain.Entities
     {
         public string Name { get; set; } = string.Empty;
         public string Code { get; set; } = string.Empty;
+
+        public int ZoneId { get; set; }
     }
 }
