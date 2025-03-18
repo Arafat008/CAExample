@@ -8,6 +8,7 @@ namespace CAExample.Domain.Entities
         public string Code { get; set; } = string.Empty;
 
         public int ZoneId { get; set; }
+        public DateTime CreatedAt { get; set; }
         public DateTime LastUpdatedAt { get; set; }
     }
 }
