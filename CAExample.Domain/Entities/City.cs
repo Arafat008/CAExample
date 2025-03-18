@@ -9,5 +9,6 @@ namespace CAExample.Domain.Entities
 
         public int ZoneId { get; set; }
         public DateTime CreatedAt { get; set; }
+        public DateTime LastUpdatedAt { get; set; }
     }
 }
