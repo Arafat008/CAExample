@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FAB119BA-9AAF-4532-969D-1953F7CA2D3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAExample.Domain", "CAExample.Domain\CAExample.Domain.csproj", "{47F10BE7-EA24-49A6-A521-9968FBA606F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CAExample.Domain", "CAExample.Domain\CAExample.Domain.csproj", "{47F10BE7-EA24-49A6-A521-9968FBA606F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAExample.Application", "CAExample.Application\CAExample.Application.csproj", "{2C64D1E5-7BCE-4150-BDB1-4926D8AF2146}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{47F10BE7-EA24-49A6-A521-9968FBA606F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47F10BE7-EA24-49A6-A521-9968FBA606F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47F10BE7-EA24-49A6-A521-9968FBA606F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C64D1E5-7BCE-4150-BDB1-4926D8AF2146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C64D1E5-7BCE-4150-BDB1-4926D8AF2146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C64D1E5-7BCE-4150-BDB1-4926D8AF2146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C64D1E5-7BCE-4150-BDB1-4926D8AF2146}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{47F10BE7-EA24-49A6-A521-9968FBA606F0} = {FAB119BA-9AAF-4532-969D-1953F7CA2D3D}
+		{2C64D1E5-7BCE-4150-BDB1-4926D8AF2146} = {FAB119BA-9AAF-4532-969D-1953F7CA2D3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9DE4B59C-4E60-480B-A154-895A66B199B2}
